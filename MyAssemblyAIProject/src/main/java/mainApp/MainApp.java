@@ -43,14 +43,14 @@ public class MainApp
 		System.out.println("Appel GET : " + Constantes.GET_URI + transcrit.getId());
 
 		HttpRequest requeteGet = HttpRequest.newBuilder().uri(new URI(Constantes.GET_URI + transcrit.getId()))
-				.header("Authorization", Constantes.CLE_API).build();
+				.header(Constantes.HEADER_AUTHORIZATION, Constantes.CLE_API).build();
 
 		while (true)
 		{
 			HttpResponse<String> reponseGet = httpClient.send(requeteGet, BodyHandlers.ofString());
 			transcrit = gson.fromJson(reponseGet.body(), Transcrit.class);
 
-			System.out.println("GET : Body récupéré : " + reponsePost.body());
+			System.out.println("GET : Body récupéré : " + reponseGet.body());
 			System.out.println("Status : " + transcrit.getStatus());
 
 			if ("completed".equals(transcrit.getStatus()) || "error".equals(transcrit.getStatus()))
