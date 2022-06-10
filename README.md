@@ -23,3 +23,8 @@ Idées d'amélioration :
 1) Stocker les résultats dans un fichier texte.
 2) Interface graphique via JavaFX permettant de jouer sur les paramètres 
 3) Utiliser la fonction upload intégrée dans l'API qui se chargera d'héberger le fichier audio automatiquement
+
+
+Crédits : 
+ - Vidéo tuto du youtubeur Coding with John - https://www.youtube.com/watch?v=9oq7Y8n1t00
+ - API AssemblyAI : https://app.assemblyai.com/
