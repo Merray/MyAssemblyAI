@@ -18,6 +18,6 @@ public class Constantes
 	public static String CODE_LANGUE = "fr";
 
 	// En millisecondes : 1sec
-	public static int TEMPS_AVANT_NOUVELLE_REQUETE = 1000;
+	public static int TEMPS_AVANT_NOUVELLE_REQUETE = 2000;
 
 }
