@@ -10,7 +10,7 @@ public class Constantes
 
 	public static String CLE_API = "dcd71d26bf514f758698af543f82910a";
 
-	public static String URL_AUDIO = "https://github.com/Merray/MyAssemblyAI/raw/main/MyAssemblyAIProject/src/main/resources/audios/AudioJazz.mp3";
+	public static String URL_AUDIO = "https://github.com/Merray/MyAssemblyAI/raw/main/MyAssemblyAIProject/src/main/resources/audios/blabla.mp3";
 
 	/*
 	 * https://docs.assemblyai.com/#supported-languages
